@@ -1,0 +1,48 @@
+# ChangeLog for media-gfx/picasa
+# Copyright 1999-2007 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/media-gfx/picasa/ChangeLog,v 1.10 2007/10/17 00:29:11 wolf31o2 Exp $
+
+  20 Jan 2008; Alan Cramer <alan.cramer@gmail.com>
+  picasa-2.7.3736.7.ebuild:
+  Updated ebuild for 2.7.3736-7 public beta release of Picasa
+
+  17 Oct 2007; Chris Gianelloni <wolf31o2@gentoo.org>
+  picasa-2.2.2820.5.ebuild:
+  Changed dependencies to be x86-specific and added amd64 dependencies for bug
+  #193608.
+
+  22 Jul 2007; Donnie Berkholz <dberkholz@gentoo.org>;
+  picasa-2.2.2820.5.ebuild:
+  Drop virtual/x11 references.
+
+  15 May 2007; Thilo Bangert <bangert@gentoo.org> metadata.xml:
+  add <herd>no-herd</herd>
+
+  19 Jan 2007; Charlie Shepherd <masterdriverz@gentoo.org>
+  picasa-2.2.2820.5.ebuild:
+  Fix licenses (GPL/BSD is not compatible w/ Googles)
+
+  13 Sep 2006; Stefan Schweizer <genstef@gentoo.org>
+  +files/picasa-unicode.patch, picasa-2.2.2820.5.ebuild:
+  Add patch to fix unicode problems thanks to Guillaume Ramelet
+  <guillaume.ramelet@gmail.com> in bug 147094
+
+  15 Jun 2006; Scott Stoddard <deltacow@gentoo.org>
+  picasa-2.2.2820.5.ebuild:
+  Added ~amd64 (bug #136156)
+
+  13 Jun 2006; Stefan Schweizer <genstef@gentoo.org>
+  picasa-2.2.2820.5.ebuild:
+  Ignore QA problems for google binaries, thanks to Jakub Moc
+  <jakub@gentoo.org> in bug 136617
+
+  09 Jun 2006; Stefan Schweizer <genstef@gentoo.org>
+  picasa-2.2.2820.5.ebuild:
+  make the license line more accurate and add RESTRICT="mirror"
+
+*picasa-2.2.2820.5 (06 Jun 2006)
+
+  06 Jun 2006; Stefan Schweizer <genstef@gentoo.org> +metadata.xml,
+  +picasa-2.2.2820.5.ebuild:
+  ebuild for picasa, bug 134376
+
