@@ -1,0 +1,1 @@
+A Universe of different packages for Gentoo Linux.  Some of these packages may be newer versions of packages that are currently in the Gentoo Portage tree, and some may be totally new.  Use at your own risk.  If you Gentoo system breaks, you get to keep all the pieces ;-)
